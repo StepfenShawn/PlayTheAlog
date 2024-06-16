@@ -39,7 +39,7 @@ struct ST {
 int main() {
     // 建立表
     st.build(a, 10);
-    st.query_max(1, 5);
-    st.query_min(5, 7);
+    // st.query_max(1, 5);
+    // st.query_min(5, 7);
     return 0;
 }
