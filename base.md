@@ -151,8 +151,8 @@ for (int i = 0; i < n; i ++ )
 最大连续子段和:
 ```python
 f = [i for i in a]
-	for i in range(1, n):
-		f[i] = max(f[i - 1] + a[i], a[i])	
+for i in range(1, n):
+    f[i] = max(f[i - 1] + a[i], a[i])	
 mx = max(f)
 ```
 求所有组合序列:
